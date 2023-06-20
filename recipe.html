@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Recipe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Add New Recipe</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Browse Recipes</a></li>
+      <li><a href="add_recipe.html">Add New Recipe</a></li>
+    </ul>
+  </nav>
+  <form>
+    <label for="recipeTitle">Recipe Title:</label>
+    <input type="text" id="recipeTitle" name="recipeTitle" required>
+    <label for="recipeDescription">Description:</label>
+    <textarea id="recipeDescription" name="recipeDescription" required></textarea>
+    <label for="recipeIngredients">Ingredients:</label>
+    <textarea id="recipeIngredients" name="recipeIngredients" required></textarea>
+    <label for="recipeSteps">Steps:</label>
+    <textarea id="recipeSteps" name="recipeSteps" required></textarea>
+    <input type="submit" value="Submit Recipe">
+  </form>
+</body>
+</html>
